@@ -12,22 +12,7 @@ A fully responsive clone of the official [Dataventics](https://www.dataventics.c
 
 ## Folder Structure
 
-my-dataventics-dv/
-├── public/
-│ └── project-page-img/
-│ └── tools/
-│ └── icons/
-│ └── index.html
-├── src/
-│ ├── styles/
-│ ├── components/
-│ ├── pages/
-│ │ └── view-job/
-│ ├── App.js
-│ └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+<pre> ```plaintext my-dataventics-dv/ ├── public/ │ ├── project-page-img/ │ ├── tools/ │ ├── icons/ │ └── index.html ├── src/ │ ├── styles/ │ ├── components/ │ ├── pages/ │ │ └── view-job/ │ ├── App.js │ └── index.js ├── .gitignore ├── package.json └── README.md ``` </pre>
 
 ## Demo
 
