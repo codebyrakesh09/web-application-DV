@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* for full layout */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Takes up remaining vertical space */
+}

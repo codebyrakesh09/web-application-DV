@@ -1,0 +1,113 @@
+.contact-section {
+  position: relative;
+  background-image: url('/public/contact-us-background.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Blue transparent overlay across the entire background */
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(36, 47, 165, 0.5); /* transparent blue */
+  z-index: 1;
+}
+
+/* Overlay content inside */
+.contact-overlay {
+  position: relative;
+  z-index: 2; /* Ensure it appears above the blue overlay */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  /* background: rgba(0, 0, 0, 0.4); Optional: dark semi-transparent background inside form */
+  border-radius: 10px;
+}
+
+
+.contact-text .consultation {
+  color: #1f00e7;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-text h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact-text h2 span {
+  color: #ffd600;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #5a379e;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.info-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.info-column i {
+  font-size: 20px;
+  /* color: #00e676; Optional: icon color */
+  margin-bottom: 10px;
+  display: block;
+}

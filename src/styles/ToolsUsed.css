@@ -1,0 +1,25 @@
+.tools-used-container {
+  background-color: #f8f8f8;
+  padding: 60px 5%;
+  text-align: center;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.tools-grid img {
+  max-height: 150px;
+  max-width: 200px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  transition: transform 0.3s ease;
+}
+
+.tools-grid img:hover {
+  transform: scale(1.1);
+}

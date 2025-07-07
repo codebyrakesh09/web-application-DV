@@ -1,0 +1,72 @@
+/* Section containing video */
+.home-hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* for video (fills the background) */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Content over video */
+.home-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertically center */
+  align-items: center;       /* horizontally center */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);  /* dark overlay effect */
+  color: #fff;
+  padding: 20px;
+}
+
+/* Optional styling */
+.company-name {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.small-with {
+  font-size: 25px;
+}
+
+.highlight {
+  color: #ffd600;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin: 10px 0;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.connect-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}
