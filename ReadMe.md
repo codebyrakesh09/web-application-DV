@@ -12,7 +12,24 @@ A fully responsive clone of the official [Dataventics](https://www.dataventics.c
 
 ## Folder Structure
 
-<pre> ```plaintext my-dataventics-dv/ ├── public/ │ ├── project-page-img/ │ ├── tools/ │ ├── icons/ │ └── index.html ├── src/ │ ├── styles/ │ ├── components/ │ ├── pages/ │ │ └── view-job/ │ ├── App.js │ └── index.js ├── .gitignore ├── package.json └── README.md ``` </pre>
+```plaintext
+my-dataventics-dv/
+├── public/
+│   ├── project-page-img/
+│   ├── tools/
+│   ├── icons/
+│   └── index.html
+├── src/
+│   ├── styles/
+│   ├── components/
+│   ├── pages/
+│   │   └── view-job/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
 
 ## Demo
 
@@ -33,7 +50,7 @@ Live Demo: https://web-application-dv-rakeshs-projects-728b9db3.vercel.app
 
 ## ⚙️ Installation & Running Locally
 
-bash
+```bash
 # Clone the repository
 git clone https://github.com/your-username/dataventics-clone.git
 
@@ -45,6 +62,7 @@ npm install
 
 # Start the development server
 npm start
+```
 
 License
 This project is for educational and personal portfolio use only. All rights to the original website design and branding belong to Dataventics.
